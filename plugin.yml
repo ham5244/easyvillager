@@ -1,0 +1,14 @@
+name: VillagerGive
+version: 1.0.0
+main: dev.villagergive.VillagerGive
+api-version: "1.21"
+description: Spawn villagers with custom enchanted book trades
+commands:
+  villager:
+    description: Give a player a villager with custom enchanted book trades
+    usage: /villager give <player> <enchant> <level> [<enchant> <level> ...]
+    permission: villagergive.use
+permissions:
+  villagergive.use:
+    description: Use /villager give
+    default: op

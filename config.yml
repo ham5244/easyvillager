@@ -1,0 +1,6 @@
+# Trades cost emeralds + a plain book like vanilla librarians.
+# Set to false for emerald-only trades.
+require-book: true
+
+# How many times each trade can be used before the villager needs to restock
+max-uses: 12
